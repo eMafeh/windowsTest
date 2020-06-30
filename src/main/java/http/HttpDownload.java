@@ -30,7 +30,6 @@ public class HttpDownload {
 //                                System.out.println(code + " " + url.url);
                                 return;
                             }
-                            System.out.println(code + " " + url.context + " " + url.url);
                             byte[] bytes = EntityUtils.toByteArray(result.getEntity());
                             consumer.accept(bytes);
                             Files.createDirectories(path.getParent());
@@ -43,7 +42,6 @@ public class HttpDownload {
     }
 
     private static void fail(Exception e, HttpUrl<?> url, Consumer<Exception> fail) {
-        url.fails++;
 //        System.out.println("失败 " + url.url);
         fail.accept(e);
     }
