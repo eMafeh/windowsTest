@@ -31,13 +31,13 @@ import java.util.function.Consumer;
 public class HttpUtil {
     private static int socketTimeout = 10000;// 设置等待数据超时时间0.5秒钟 根据业务调整
 
-    private static int connectTimeout = 3000;// 连接超时
+    private static int connectTimeout = 5000;// 连接超时
 
     private static int poolSize = 300;// 连接池最大连接数
 
-    private static int maxPerRoute = 30;// 每个主机的并发最多只有1500
+    private static int maxPerRoute = 5;// 每个主机的并发最多只有1500
 
-    private static int connectionRequestTimeout = 1000; //从连接池中后去连接的timeout时间
+    private static int connectionRequestTimeout = 30; //从连接池中后去连接的timeout时间
 
     // http代理相关参数
     private static String host = "";
@@ -122,6 +122,20 @@ public class HttpUtil {
     }
 
     public static void execute(HttpUriRequest request, Consumer<HttpResponse> success, Consumer<Exception> fail) {
+//        request.addHeader("accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9");
+//        request.addHeader("accept-language", "zh-CN,zh;q=0.9");
+//        request.addHeader("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36");
+//        request.addHeader("accept-encoding","gzip, deflate, br");
+//        request.addHeader("upgrade-insecure-requests","1");
+//        :authority: video2.ddbtss.com:8091
+//:method: GET
+//        :path: /99920180131/9992018013100165/650kb/hls/index.m3u8
+//:scheme: https
+//sec-fetch-dest: document
+//sec-fetch-mode: navigate
+//sec-fetch-site: none
+
+
         //连接池执行
         HttpUtil.asyncHttpClient.execute(request, new FutureCallback<HttpResponse>() {
             @Override

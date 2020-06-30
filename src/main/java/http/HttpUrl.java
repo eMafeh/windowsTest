@@ -5,6 +5,7 @@ import java.nio.file.Paths;
 
 public class HttpUrl<T> {
     public static final String LOCAL = "F:\\Downloads\\m3u8\\";
+    public static final String RESULT = "F:\\Downloads\\m3u8result";
     public final String url;
     public final String httpTitle;
     public final String domain;
@@ -12,6 +13,7 @@ public class HttpUrl<T> {
     public final String param;
     public final T context;
     public final Path local;
+    public int fails = 0;
 
     public HttpUrl(String url, T context) {
         this.context = context;
@@ -36,17 +38,6 @@ public class HttpUrl<T> {
         return mapping.startsWith("/") ?
                 new HttpUrl<>(httpTitle + domain + mapping, context) :
                 new HttpUrl<>(httpTitle + domain + this.mapping.substring(0, this.mapping.lastIndexOf('/') + 1) + mapping, context);
-    }
-
-    public static void main(String[] args) {
-        HttpUrl<Void> httpUrl = new HttpUrl<>("https://2.ddyunbo.com", null);
-        System.out.println(httpUrl);
-        HttpUrl<Void> sub = httpUrl.sub("20200619/tjpWXLHY/index.m3u8");
-        System.out.println(sub);
-        sub = sub.sub("20200619/tjpWXLHY/index.m3u8");
-        System.out.println(sub);
-        sub = sub.sub("/20200619/tjpWXLHY/index.m3u8");
-        System.out.println(sub);
     }
 
     @Override

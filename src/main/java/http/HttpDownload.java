@@ -22,12 +22,19 @@ public class HttpDownload {
 //            System.out.println("下载 " + url.url);
             HttpUtil.execute(new HttpGet(url.url),
                     result -> {
-                        System.out.println(result.getStatusLine() + " " + url.url);
                         try {
-                            Files.createDirectories(path.getParent());
+                            int code = result.getStatusLine()
+                                    .getStatusCode();
+                            if (code != 200) {
+                                fail(null, url, fail);
+//                                System.out.println(code + " " + url.url);
+                                return;
+                            }
+                            System.out.println(code + " " + url.context + " " + url.url);
                             byte[] bytes = EntityUtils.toByteArray(result.getEntity());
-                            Files.write(path, bytes, StandardOpenOption.CREATE, StandardOpenOption.WRITE);
                             consumer.accept(bytes);
+                            Files.createDirectories(path.getParent());
+                            Files.write(path, bytes, StandardOpenOption.CREATE, StandardOpenOption.WRITE);
                         } catch (Exception e) {
                             fail(e, url, fail);
                         }
@@ -36,6 +43,7 @@ public class HttpDownload {
     }
 
     private static void fail(Exception e, HttpUrl<?> url, Consumer<Exception> fail) {
+        url.fails++;
 //        System.out.println("失败 " + url.url);
         fail.accept(e);
     }
