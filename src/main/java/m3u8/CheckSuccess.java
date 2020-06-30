@@ -60,15 +60,15 @@ public class CheckSuccess {
         queue.add(new M3u8("未分类", "你好厉害,爽死了,好喜欢你操我!", "https://2.ddyunbo.com/20200108/BG6AXFsy/index.m3u8").httpUrl);
         queue.add(new M3u8("未分类", "健身教练情趣圆床后入身材高挑高跟美少妇", "https://videozmcdn.stz8.com:8091/20200101/z5ITfdSO/index.m3u8").httpUrl);
         queue.add(new M3u8("未分类", "女主播潜入洗浴中心偷拍妹子们淋浴搓澡", "https://videozm.whqhyg.com:8091/20200612/jXyYXRy1/index.m3u8").httpUrl);
+        queue.add(new M3u8("未分类", "苗条妹子全裸瑜伽", "https://2.ddyunbo.com/20200623/xnmfsYZY/index.m3u8").httpUrl);
+        queue.add(new M3u8("未分类", "啊你没有戴套套”HXS宾馆约炮极品丸子头瑜伽老师", "https://2.ddyunbo.com/20190715/eoFzRAWQ/index.m3u8").httpUrl);
+        queue.add(new M3u8("未分类", "练瑜伽的大三炮友翘课", "https://cdnvideos.52homedecor.com:8091/99920190401/999201904200381/index.m3u8").httpUrl);
+        queue.add(new M3u8("未分类", "n1385	东热激情肛交特集第五回中嶋麻美", "https://videozm.whqhyg.com:8091/20200531/Jv4ughjr/index.m3u8").httpUrl);
 
         queue.add(new M3u8("Caribbean", "", "https://video1.52homedecor.com:8091/99920191015/Caribbean-090116-245/index.m3u8").httpUrl);
         queue.add(new M3u8("Caribbean", "", "https://video1.52homedecor.com:8091/99920191015/Caribbean-090118-743/index.m3u8").httpUrl);
         queue.add(new M3u8("Caribbean", "", "https://video1.52homedecor.com:8091/99920191015/Caribbean-090215-001/index.m3u8").httpUrl);
 
-
-        queue.add(new M3u8("苗条妹子全裸瑜伽", "https://2.ddyunbo.com/20200623/xnmfsYZY/index.m3u8").httpUrl);
-        queue.add(new M3u8("啊你没有戴套套”HXS宾馆约炮极品丸子头瑜伽老师", "https://2.ddyunbo.com/20190715/eoFzRAWQ/index.m3u8").httpUrl);
-        queue.add(new M3u8("练瑜伽的大三炮友翘课", "https://cdnvideos.52homedecor.com:8091/99920190401/999201904200381/index.m3u8").httpUrl);
 
         queue.add(new M3u8("闺蜜", "把女闺蜜叫来一起", "https://2.ddyunbo.com/20190907/QszyDMai/index.m3u8").httpUrl);
         queue.add(new M3u8("闺蜜", "一对好闺蜜男友都要一起共享", "https://2.ddyunbo.com/20191001/R9RoVUmv/index.m3u8").httpUrl);
@@ -92,7 +92,34 @@ public class CheckSuccess {
         queue.add(new M3u8("职场", "儿子亲眼目睹当院长的爸爸和性感女下属", "https://dadi-bo.com/20181216/sOk04jNg/index.m3u8").httpUrl);
 
 
-        queue.add(new M3u8("n1385	东热激情肛交特集第五回中嶋麻美", "https://videozm.whqhyg.com:8091/20200531/Jv4ughjr/index.m3u8").httpUrl);
+        queue.add(new M3u8("学姐偷情", "学姐偷情_第一季02.480p完整版", "https://videozm.whqhyg.com:8091/20200524/qEP6CFse/index.m3u8").httpUrl);
+        queue.add(new M3u8("学姐偷情", "学姐偷情_第二季03.720p完整版", "https://videozm.whqhyg.com:8091/20200524/cIDKnbxx/index.m3u8").httpUrl);
+        queue.add(new M3u8("学姐偷情", "学姐偷情_第二季02.480p完整版", "https://videozm.whqhyg.com:8091/20200524/5iZVbrUb/index.m3u8").httpUrl);
+        queue.add(new M3u8("学姐偷情", "学姐偷情_第一季03.480p完整版", "https://videozm.whqhyg.com:8091/20200524/5YOiXFu4/index.m3u8").httpUrl);
+
+        queue.add(new M3u8("短视频", "胸大腰细的清纯白嫩大学美女", "https://videozm.whqhyg.com:8091/20200524/eQwla3qK/index.m3u8").httpUrl);
+        queue.add(new M3u8("短视频", "华裔眼镜骚妹大奶无毛逼", "https://videozm.whqhyg.com:8091/20200524/QcH4TycZ/index.m3u8").httpUrl);
+        queue.add(new M3u8("短视频", "火车露点自慰不怕旁边旅客醒了被强操吗", "https://videozm.whqhyg.com:8091/20200524/KJip0OKd/index.m3u8").httpUrl);
+        queue.add(new M3u8("短视频", "火辣的嫩妹自拍抵押视频", "https://videozm.whqhyg.com:8091/20200524/ECpbwlBw/index.m3u8").httpUrl);
+        queue.add(new M3u8("短视频", "性感美女露脸自慰", "https://videozm.whqhyg.com:8091/20200524/xnHnNeeS/index.m3u8").httpUrl);
+        queue.add(new M3u8("短视频", "高颜值爆乳健身教练约炮健身房学生啪啪", "https://videozm.whqhyg.com:8091/20200524/hWf1n093/index.m3u8").httpUrl);
+        queue.add(new M3u8("短视频", "女神级清纯性感师院美女酒店啪啪", "https://videozm.whqhyg.com:8091/20200524/eI7E3fkA/index.m3u8").httpUrl);
+        queue.add(new M3u8("短视频", "美留学生思静和大屌炮友们啪啪", "https://videozm.whqhyg.com:8091/20200524/Hva4pG5D/index.m3u8").httpUrl);
+        queue.add(new M3u8("短视频", "韵味级别的极品阿姨享受无套中出", "https://videozm.whqhyg.com:8091/20200524/IgfU2Fqi/index.m3u8").httpUrl);
+        queue.add(new M3u8("短视频", "大三情侣翘课宾馆啪啪纪实", "https://videozmcdn.stz8.com:8091/20200508/uyooEPAi/index.m3u8").httpUrl);
+        queue.add(new M3u8("短视频", "极品美女和男友性爱私拍流出", "https://videozmcdn.stz8.com:8091/20200508/vCG3Zgkg/index.m3u8").httpUrl);
+        queue.add(new M3u8("短视频", "酒店约炮牛仔裤苗条学生妹", "https://videozmcdn.stz8.com:8091/20200508/DY5V9N67/index.m3u8").httpUrl);
+        queue.add(new M3u8("短视频", "奔驰哥吃了药啪啪小嫩妹", "https://videozmcdn.stz8.com:8091/20200508/OgsQTek6/index.m3u8").httpUrl);
+        queue.add(new M3u8("短视频", "极品湖南学院派美女和男朋友", "https://videozmcdn.stz8.com:8091/20200508/DZ8o7djA/index.m3u8").httpUrl);
+        queue.add(new M3u8("短视频", "兄妹乱伦2淫荡骚货妹妹诱惑看片哥哥", "https://videozmcdn.stz8.com:8091/20200508/xNmdVNuY/index.m3u8").httpUrl);
+        queue.add(new M3u8("短视频", "风韵表姐相亲失败寂寞已久魔爪伸向处男弟弟", "https://videozmcdn.stz8.com:8091/20200508/0XtAG9n4/index.m3u8").httpUrl);
+        queue.add(new M3u8("短视频", "情装睡的外甥女每天都勾引我乱伦", "https://videozmcdn.stz8.com:8091/20200508/jj6JWfLj/index.m3u8").httpUrl);
+        queue.add(new M3u8("短视频", "新搬来的白领女邻居套路我出轨", "https://videozmcdn.stz8.com:8091/20200508/m82Y2sMk/index.m3u8").httpUrl);
+        queue.add(new M3u8("短视频", "婚内出轨出差约炮女同学老婆查岗遇危机", "https://videozmcdn.stz8.com:8091/20200508/iirCuOf4/index.m3u8").httpUrl);
+        queue.add(new M3u8("短视频", "极品魔鬼身材女神 口交后入啪啪", "https://videozmcdn.stz8.com:8091/20200508/ae42Xrq1/index.m3u8").httpUrl);
+
+        queue.add(new M3u8("国外自拍视频售卖网站Manyvids视频流出第四季", "https://videozmcdn.stz8.com:8091/20200508/SY6GjVzK/index.m3u8").httpUrl);
+        queue.add(new M3u8("马尾妹与体育班学长的秘密", "https://2.ddyunbo.com/20200626/MI5Ilq4C/index.m3u8").httpUrl);
 
     }
 
@@ -102,6 +129,7 @@ public class CheckSuccess {
         for (HttpUrl<M3u8> url : queue) {
             check(files, url);
         }
+        System.out.println(queue.size());
     }
 
     private static void check(File[] files, HttpUrl<M3u8> url) {
@@ -123,6 +151,6 @@ public class CheckSuccess {
                 return;
             }
         }
-        System.out.println(name);
+        System.out.println(url.context.dirAndName);
     }
 }

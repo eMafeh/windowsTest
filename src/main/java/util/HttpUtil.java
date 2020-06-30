@@ -33,9 +33,9 @@ public class HttpUtil {
 
     private static int connectTimeout = 5000;// 连接超时
 
-    private static int poolSize = 300;// 连接池最大连接数
+    private static int poolSize = 500;// 连接池最大连接数
 
-    private static int maxPerRoute = 5;// 每个主机的并发最多只有1500
+    private static int maxPerRoute = 30;// 每个主机的并发最多只有1500
 
     private static int connectionRequestTimeout = 30; //从连接池中后去连接的timeout时间
 

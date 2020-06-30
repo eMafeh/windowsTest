@@ -13,9 +13,16 @@ public class HttpUrl<T> {
     public final String param;
     public final T context;
     public final Path local;
-    public int fails = 0;
+
+    public HttpUrl(String url) {
+        this(url, null, null);
+    }
 
     public HttpUrl(String url, T context) {
+        this(url, null, context);
+    }
+
+    public HttpUrl(String url, Path local, T context) {
         this.context = context;
         //追加头
         url = !url.startsWith("http") ? "http://" + url : url;
@@ -31,7 +38,7 @@ public class HttpUrl<T> {
         this.httpTitle = split[0] + "//";
         this.domain = split[2];
         this.mapping = "/" + (split.length == 4 ? split[3] : "");
-        this.local = Paths.get(LOCAL + domain.replaceAll(":", ".") + mapping);
+        this.local = local == null ? Paths.get(LOCAL + domain.replaceAll(":", ".") + mapping) : local;
     }
 
     public HttpUrl<T> sub(String mapping) {

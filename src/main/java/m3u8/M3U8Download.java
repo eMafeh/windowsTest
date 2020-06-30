@@ -1,6 +1,7 @@
 package m3u8;
 
 import fun.qianrui.staticUtil.ExceptionUtil;
+import fun.qianrui.staticUtil.ThreadUtil;
 import http.HttpDownload;
 import http.HttpUrl;
 
@@ -26,7 +27,7 @@ public class M3U8Download {
 
     public static void main(String[] args) throws InterruptedException {
 //台湾SWAG  https://gozz5.com/
-
+//        queue.addAll(CheckSuccess.queue);
         queue.add(new M3u8("平胸", "", "https://video1.posh-hotels.com:8091/99920191228/5526id00046-D/index.m3u8").httpUrl);
         queue.add(new M3u8("平胸", "", "https://video1.posh-hotels.com:8091/99920191228/5526id00046-C/index.m3u8").httpUrl);
         queue.add(new M3u8("平胸", "", "https://video1.posh-hotels.com:8091/99920191228/5526id00046-B/index.m3u8").httpUrl);
@@ -59,43 +60,18 @@ public class M3U8Download {
         queue.add(new M3u8("盗撮", "CLUB-180  ヤレる人妻回春マッサージ4 中出し交渉盗撮", "https://video1.feimanzb.com:8091/20180115/CLUB-180-C/550kb/hls/index.m3u8").httpUrl);
         queue.add(new M3u8("盗撮", "BDSR-215  人妻リアル不伦 流出ラブホ盗撮 10", "https://video1.feimanzb.com:8091/20180115/BDSR-215-C/550kb/hls/index.m3u8").httpUrl);
 
-        queue.add(new M3u8("学姐偷情", "学姐偷情_第一季02.480p完整版", "https://videozm.whqhyg.com:8091/20200524/qEP6CFse/index.m3u8").httpUrl);
-        queue.add(new M3u8("学姐偷情", "学姐偷情_第二季03.720p完整版", "https://videozm.whqhyg.com:8091/20200524/cIDKnbxx/index.m3u8").httpUrl);
-        queue.add(new M3u8("学姐偷情", "学姐偷情_第二季02.480p完整版", "https://videozm.whqhyg.com:8091/20200524/5iZVbrUb/index.m3u8").httpUrl);
-        queue.add(new M3u8("学姐偷情", "学姐偷情_第一季03.480p完整版", "https://videozm.whqhyg.com:8091/20200524/5YOiXFu4/index.m3u8").httpUrl);
-
-        queue.add(new M3u8("短视频", "胸大腰细的清纯白嫩大学美女", "https://videozm.whqhyg.com:8091/20200524/eQwla3qK/index.m3u8").httpUrl);
-        queue.add(new M3u8("短视频", "华裔眼镜骚妹大奶无毛逼", "https://videozm.whqhyg.com:8091/20200524/QcH4TycZ/index.m3u8").httpUrl);
-        queue.add(new M3u8("短视频", "火车露点自慰不怕旁边旅客醒了被强操吗", "https://videozm.whqhyg.com:8091/20200524/KJip0OKd/index.m3u8").httpUrl);
-        queue.add(new M3u8("短视频", "火辣的嫩妹自拍抵押视频", "https://videozm.whqhyg.com:8091/20200524/ECpbwlBw/index.m3u8").httpUrl);
-        queue.add(new M3u8("短视频", "性感美女露脸自慰", "https://videozm.whqhyg.com:8091/20200524/xnHnNeeS/index.m3u8").httpUrl);
-        queue.add(new M3u8("短视频", "高颜值爆乳健身教练约炮健身房学生啪啪", "https://videozm.whqhyg.com:8091/20200524/hWf1n093/index.m3u8").httpUrl);
-        queue.add(new M3u8("短视频", "女神级清纯性感师院美女酒店啪啪", "https://videozm.whqhyg.com:8091/20200524/eI7E3fkA/index.m3u8").httpUrl);
-        queue.add(new M3u8("短视频", "美留学生思静和大屌炮友们啪啪", "https://videozm.whqhyg.com:8091/20200524/Hva4pG5D/index.m3u8").httpUrl);
-        queue.add(new M3u8("短视频", "韵味级别的极品阿姨享受无套中出", "https://videozm.whqhyg.com:8091/20200524/IgfU2Fqi/index.m3u8").httpUrl);
-        queue.add(new M3u8("短视频", "大三情侣翘课宾馆啪啪纪实", "https://videozmcdn.stz8.com:8091/20200508/uyooEPAi/index.m3u8").httpUrl);
-        queue.add(new M3u8("短视频", "极品美女和男友性爱私拍流出", "https://videozmcdn.stz8.com:8091/20200508/vCG3Zgkg/index.m3u8").httpUrl);
-        queue.add(new M3u8("短视频", "酒店约炮牛仔裤苗条学生妹", "https://videozmcdn.stz8.com:8091/20200508/DY5V9N67/index.m3u8").httpUrl);
-        queue.add(new M3u8("短视频", "奔驰哥吃了药啪啪小嫩妹", "https://videozmcdn.stz8.com:8091/20200508/OgsQTek6/index.m3u8").httpUrl);
-        queue.add(new M3u8("短视频", "极品魔鬼身材女神 口交后入啪啪", "https://videozmcdn.stz8.com:8091/20200508/ae42Xrq1/index.m3u8").httpUrl);
-        queue.add(new M3u8("短视频", "极品湖南学院派美女和男朋友", "https://videozmcdn.stz8.com:8091/20200508/DZ8o7djA/index.m3u8").httpUrl);
-        queue.add(new M3u8("短视频", "兄妹乱伦2淫荡骚货妹妹诱惑看片哥哥", "https://videozmcdn.stz8.com:8091/20200508/xNmdVNuY/index.m3u8").httpUrl);
-        queue.add(new M3u8("短视频", "风韵表姐相亲失败寂寞已久魔爪伸向处男弟弟", "https://videozmcdn.stz8.com:8091/20200508/0XtAG9n4/index.m3u8").httpUrl);
-        queue.add(new M3u8("短视频", "情装睡的外甥女每天都勾引我乱伦", "https://videozmcdn.stz8.com:8091/20200508/jj6JWfLj/index.m3u8").httpUrl);
-        queue.add(new M3u8("短视频", "新搬来的白领女邻居套路我出轨", "https://videozmcdn.stz8.com:8091/20200508/m82Y2sMk/index.m3u8").httpUrl);
-        queue.add(new M3u8("短视频", "婚内出轨出差约炮女同学老婆查岗遇危机", "https://videozmcdn.stz8.com:8091/20200508/iirCuOf4/index.m3u8").httpUrl);
 
         download();
+        show();
     }
 
-    private static void download() throws InterruptedException {
-        if (queue.size() == 0) return;
-        while (true) {
+    private static void download() {
+        ThreadUtil.createLoopThread(() -> {
             HttpUrl<M3u8> take = queue.take();
             //m3u8文件
             if (take.context.httpUrl != take) {
                 HttpDownload.downLoad(take, bytes -> take.context.subSuccess(), false, e -> queue.add(take));
-                continue;
+                return;
             }
             HttpDownload.downLoad(take, bytes -> {
                 String string = new String(bytes, StandardCharsets.UTF_8);
@@ -133,6 +109,29 @@ public class M3U8Download {
                     System.out.println(take.context.time + " " + take.context);
                 take.context.subSuccess();
             }, true, e -> queue.add(take));
-        }
+        }, "down tasks")
+                .start();
+    }
+
+    private static void show() {
+        ThreadUtil.createLoopThread(() -> {
+            Thread.sleep(10000L);
+            int show = 0;
+            int live = 0;
+            for (M3u8 task : M3u8.tasks) {
+                int change = task.change();
+                if (change != 0) {
+                    live++;
+                    System.out.println(change + "  " + task);
+                }
+                show += change;
+            }
+            int size = M3u8.tasks.size();
+            System.out.println("m3u8:" + size + " 活动" + live + " 完成任务:" + show);
+            if (size == 0) {
+                System.exit(0);
+            }
+        }, "show tasks")
+                .start();
     }
 }
