@@ -1,6 +1,6 @@
 package util;
 
-import fun.qianrui.staticUtil.ExceptionUtil;
+import fun.qianrui.staticUtil.sys.ExceptionUtil;
 import org.apache.http.Consts;
 import org.apache.http.HttpHost;
 import org.apache.http.HttpResponse;

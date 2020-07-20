@@ -17,4 +17,13 @@ public class TestRAM {
             System.out.println(System.currentTimeMillis() - l);
         }
     }
+
+    private void m() {
+        int a = 10;
+        int b = 20;
+        int c = 20;
+        int d = 20;
+        int e = 20;
+        int f = 20;
+    }
 }
